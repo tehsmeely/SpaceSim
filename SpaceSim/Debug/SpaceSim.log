@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\library\documents\c++ projects\vs13\spacesim\spacesim\main.cpp(534): warning C4101: 'j' : unreferenced local variable
+  InfoBox.cpp
+  Generating Code...
+  SpaceSim.vcxproj -> D:\Library\Documents\C++ projects\VS13\SpaceSim\Debug\SpaceSim.exe
