@@ -89,7 +89,7 @@ GangedImageButton::GangedImageButton(SDL_Point topleft, std::string basepath, st
 		topleft.y += 50;
 	}
 	activeButton = buttons[0];
-	activeButton->Click();
+	value = activeButton->Click();
 
 
 }

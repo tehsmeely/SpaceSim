@@ -1,7 +1,7 @@
 #pragma once
 #include <SDL.h>
 #include <vector>
-#include "imageButton.h"
+#include "ImageButton.h"
 #include "SDLhelpers.h"
 class UI
 {

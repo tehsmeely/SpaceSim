@@ -254,6 +254,7 @@ int main(int argc, char **argv){
 				}
 				else if (e.button.button == SDL_BUTTON_RIGHT)
 				{
+					std::cout << "Right Click! Mode: " << rmode << std::endl;
 					SDL_Point clickedPos;
 					clickedPos.x = (e.button.x * cameraRect.w) / (SCREEN_WIDTH * TILE_SIZE_X) + (cameraRect.x / TILE_SIZE_X);
 					clickedPos.y = (e.button.y * cameraRect.h) / (SCREEN_HEIGHT * TILE_SIZE_Y) + (cameraRect.y / TILE_SIZE_Y);

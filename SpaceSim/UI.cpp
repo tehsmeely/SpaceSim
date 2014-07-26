@@ -26,6 +26,8 @@ UI::UI(SDL_Renderer* ren, int* lmodeptr, int* rmodeptr)
 	std::string names[] = { "lightButton.png", "bedButton.png", "testButton.png" };
 	int values[] = { 1, 2, 3 };
 	GangedImageButton* gButtons = new GangedImageButton(SDL_Point{ x + 20, y + 20 }, "../res/", names, values, 3, ren);
+	*modeptr_R = gButtons->GetValue();
+	// Because ganged buttons initialise with a button, we need to set mode now
 	gangedButtons.push_back(gButtons);
 
 }
